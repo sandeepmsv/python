@@ -1,0 +1,18 @@
+Applications of stack
+-------------------
+    Function Calls
+    Checking for Balanced Paranthesis
+    Reversing Items
+    Infix to prefix/postfix
+    Evaluation of postfix/prefix
+    stack span problem and its variations
+    Undo/Redo OR Forward/Backward
+
+
+Stack in python:
+---------------
+1) Using List
+2) Using collections.deque
+3) Using queue.LIFOQueue
+4) Using our own implementation
+

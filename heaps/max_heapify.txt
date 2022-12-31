@@ -1,0 +1,23 @@
+# Max_heapify Algorithm
+
+Max_HEAPIFY(A,i){
+    l = 2i;
+    r = 2i+1;
+    if(l<=A.heap_size and A[l]>A[i]){
+        largest = l;
+    }
+    else{
+        largest = i;
+    }
+    if(r<=A.heap_size and A[r]>A[largest]){
+        largest = r;
+    }
+    if(largest != i){
+        exchange A[i] with A[largest]
+        MAX_HEAPIFY(A,largest)
+    }
+}
+From Where leaf starts in complete Binary tree?
+Ans) (|_n/2_|+1 to n)
+
+
